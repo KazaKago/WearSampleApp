@@ -30,7 +30,7 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(kotlin("stdlib-jdk7", KotlinCompilerVersion.VERSION))
     implementation("androidx.wear:wear:1.0.0")
-    implementation("androidx.appcompat:appcompat:1.0.2")
+    implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("com.google.android.material:material:1.0.0")
-    compileOnly("com.google.android.wearable:wearable:2.4.0")
+    compileOnly("com.google.android.wearable:wearable:2.5.0")
 }
